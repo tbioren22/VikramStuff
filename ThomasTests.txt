@@ -1,0 +1,113 @@
+Test 1:
+    A1=5
+    A2=10
+    A3=A1+A2
+    result: A3 = 15
+
+Test 2:
+    A1=5
+    A2=10
+    A3=A2-A1
+    result: A3 = -5
+
+Test 3:
+    A1=5
+    A2=A1/10
+    result: A2 = 0.5
+
+Test 4:
+    A1=0
+    A2=5/A1
+    result: Divide By 0 Error
+
+Test 5:
+    A1=0
+    B2="foo"
+    B2
+    result: "foo"
+
+Test 6:
+    B1
+    result: <empty>
+
+Test 7:
+    A1==3
+    result: Error Message
+
+Test 8:
+    A1="foo"3
+    result: Error Message
+
+Test 9:
+    A1=5/0
+    result: Error Message
+
+Test 10:
+    print
+    result: prints out an empty board
+
+Test 11:
+    A1=5-2
+    A2=A1
+    A2
+    result: 3
+
+Test 12:
+    quit
+    result: quits the program
+
+Test 13:
+    A1=5
+    B7="foo"
+    C3=239.3
+    clear
+    print
+    result: blank board
+
+Test 14:
+    A1=A2
+    A2=A1
+    result: Message about recursion
+
+Test 15:
+    A1="foo"
+    A2=3.14
+    A3=A1+A2
+    result: Message about type mismatch
+
+Test 16:
+    A1="foo"
+    A2="thing"
+    A3=A1/A2
+    result: Message about type mismatch
+
+Test 17:
+    A1=A1
+    result: Message about recursion
+
+Test 18:
+    A1=0
+    A2=A1+2
+    A3=A2*2
+    A4=A3*10
+    A5=A4-3
+    A5
+    result: 37
+
+Test 19:
+    A1 = 4
+    A2 = 2
+    A3 = 3
+    sorta A1 - A3
+    print
+    result: A1 = 2 A2 = 3 A3 = 4
+
+Test 20:
+    A1 = 5
+    A2 = 1
+    A3 = 2
+    A4 = 3
+    A5 = 4
+    sortd A1 - A5
+    print
+    result: A1 = 5 A2 = 4 A3 = 3 A4 = 2 A5 = 1
